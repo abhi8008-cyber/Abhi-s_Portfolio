@@ -1,0 +1,228 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --mainred: #f6214b;
+  --back: #f9f9ff;
+  --dark: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button,
+input {
+  background-color: transparent;
+  border: none;
+}
+::selection {
+  background-color: var(--mainred);
+  color: var(--back);
+}
+.maincolor {
+  color: var(--mainred);
+}
+.maincolorbg {
+  background-color: var(--mainred);
+}
+.shadow-card {
+  box-shadow: -10px 7px 50px 10px rgb(246, 33, 75, 0.3);
+}
+.nav li:hover a:hover {
+  color: var(--mainred);
+}
+.nav li a {
+  color: rgb(26, 24, 24);
+}
+.classoimg {
+  width: 50px;
+  height: 50px;
+}
+.font-size14 {
+  font-size: 14px;
+}
+.font-size12 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.dino {
+  height: 85vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/illustrations/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.week {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/illustrations/callto-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.trainer-1,
+.trainer-2,
+.trainer-3,
+.trainer-4 {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../Images/illustrations/t1.jpg);
+  transition: all 3s ease;
+}
+.trainer-2 {
+  background-image: url(../Images/illustrations/t2.jpg);
+}
+.trainer-3 {
+  background-image: url(../Images/illustrations/t3.jpg);
+}
+.trainer-4 {
+  background-image: url(../Images/illustrations/t4.jpg);
+}
+.trainer-1:hover {
+  background-image: linear-gradient(
+      rgba(246, 33, 75, 0.8),
+      rgba(246, 33, 75, 0.8)
+    ),
+    url(../Images/illustrations/t1.jpg);
+}
+.trainer-2:hover {
+  background-image: linear-gradient(
+      rgba(246, 33, 75, 0.8),
+      rgba(246, 33, 75, 0.8)
+    ),
+    url(../Images/illustrations/t2.jpg);
+}
+.trainer-3:hover {
+  background-image: linear-gradient(
+      rgba(246, 33, 75, 0.8),
+      rgba(246, 33, 75, 0.8)
+    ),
+    url(../Images/illustrations/t3.jpg);
+}
+.trainer-4:hover {
+  background-image: linear-gradient(
+      rgba(246, 33, 75, 0.8),
+      rgba(246, 33, 75, 0.8)
+    ),
+    url(../Images/illustrations/t4.jpg);
+}
+.insta {
+  visibility: hidden;
+}
+.trainer-1:hover .insta,
+.trainer-2:hover .insta,
+.trainer-3:hover .insta,
+.trainer-4:hover .insta {
+  visibility: visible;
+}
+.Course {
+  background-color: var(--mainred);
+  bottom: 20px;
+  left: 20px;
+}
+.box,
+.dead {
+  height: 40vh;
+  background-image: url(../Images/illustrations/f1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.dead {
+  background-image: url(../Images/illustrations/f2.jpg);
+}
+.ultr {
+  overflow-x: scroll;
+}
+.filimg div img {
+  filter: grayscale(100%);
+}
+.filimg div img:hover {
+  filter: grayscale(0%);
+}
+.calcumass div input::placeholder {
+  color: var(--back);
+  font-size: 12px;
+}
+.calcimass {
+  background-color: var(--back);
+}
+.effer {
+  transition: all 0.5s linear;
+}
+.effer:hover img {
+  transform: scale(1.1);
+}
+.breakp {
+  line-height: 50px;
+  transition: all 0.3s ease;
+}
+
+.purchase {
+  background-color: var(--dark);
+  color: var(--back);
+}
+.divani:hover .breakani button {
+  background-color: var(--back);
+  color: var(--dark);
+}
+.memo {
+  background-color: var(--mainred);
+  border: 1px solid transparent;
+}
+.memo:hover {
+  background-color: transparent;
+  border: 1px solid;
+}
+.lasticon a {
+  background-color: var(--dark);
+}
+.lasticon a:hover,
+.emailarrow {
+  background-color: var(--mainred);
+}
+@media (min-width: 768px) {
+  .box,
+  .dead {
+    height: 70vh;
+  }
+  .trainer-1,
+  .trainer-2,
+  .trainer-3,
+  .trainer-4 {
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .maintext,
+  .iconcard,
+  .calcumass,
+  .deso,
+  .trainers {
+    width: 75%;
+  }
+  .box,
+  .dead {
+    height: 40vh;
+  }
+  .trainer-1,
+  .trainer-2,
+  .trainer-3,
+  .trainer-4 {
+    height: 100%;
+  }
+}

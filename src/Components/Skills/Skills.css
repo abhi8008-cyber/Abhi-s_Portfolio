@@ -1,0 +1,33 @@
+.skills{
+    background-color: #161513;
+  }
+  .zoom {
+    padding: 10px;
+    background-color: hwb(0 20% 78%);
+    border-radius: 15px;
+    transition: transform .2s;
+    width: 100%;
+    /* height: 500px; */
+    margin: 0;
+  }
+  /* .zoom:hover {
+    -ms-transform: scale(1.02); 
+    -webkit-transform: scale(1.02); 
+    transform: scale(1.02);
+  background-color:rgb(157, 41, 41);
+} */
+.hd-logo{
+height: 120px;
+width: 60%;
+object-fit: cover;
+}
+.zoom>img{
+border-radius: 80px;
+border: 3px solid yellow;
+margin: 50px 100px 50px 118px;
+width: 30%;
+background-size: cover;
+}
+.zoom>p>i{
+color: yellow;
+}

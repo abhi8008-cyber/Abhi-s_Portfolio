@@ -1,0 +1,79 @@
+.homepage{
+  background-image: url("../images/hero_1.jpg");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn1{
+  background-color: orange;
+  color: white;
+  border: none;
+  height: 44px;
+  width: 130px;
+  border-radius: 40px;
+}
+.img1{
+height: 80px;
+}
+/* h1 ,h2,h3,h4,h5,h6{
+ font-family:"Playfair Display", sans-serif;
+} */
+.plus{
+font-size: large;
+font-weight: 1000;
+}
+.happy-customer{
+background-color:#F8F9FA ;
+padding-top: 100px;
+}
+.img2{
+  height: 180px;
+  width: 100%;
+}
+.pp{
+  font-family: sans-serif;
+  font-size:13px;
+}
+.hh{
+  font-size:18px;
+}
+.btn2{
+  color: black;
+  border-color: rgb(251, 246, 246);
+  background-color:white ;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+}
+.last{
+  background-color:#F8F9FA ;
+}
+.journey{
+  height: 160px;
+  background-color:  #FC8621;
+  color: white;
+}
+.homeheading{
+  padding-top:200px;
+}
+.nnnn{
+  margin: 0px;
+  /* gap: 150px; */
+}
+
+
+
+.animate{
+  animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-top {
+  0% {
+   
+            transform: translateY(0);
+  }
+  100% {
+    
+            transform: translateY(-100px);
+  }
+}
